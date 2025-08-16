@@ -1,0 +1,13 @@
+prefix=E:/LLMOps/LLMOps Project/document_portal/env/Library
+exec_prefix=E:/LLMOps/LLMOps Project/document_portal/env/Library
+libdir=E:/LLMOps/LLMOps Project/document_portal/env/Library/lib
+sharedlibdir=E:/LLMOps/LLMOps Project/document_portal/env/Library/lib
+includedir=E:/LLMOps/LLMOps Project/document_portal/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
